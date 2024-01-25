@@ -3,7 +3,7 @@ createApp({
     data() {
         return {
             messege:'Hello vue',
-            src:'./hello.png',
+            url:'./hello.png',
         }
     }
 }).mount('#app')

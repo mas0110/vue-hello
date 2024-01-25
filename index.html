@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     
     <div id="app" >
-       <h1>{{messege}}</h1>
-       <img src="{{src}}" alt="hello">
+       <h1>{{ messege }}</h1>
+       <figure>
+        <img :src="url" alt="hello">
+       </figure>
     </div>
 
-
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- link js  -->
     <script src="./main.js"></script>
 </body>
